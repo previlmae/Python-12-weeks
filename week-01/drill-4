@@ -1,0 +1,4 @@
+# Drill 4 — Price with tax. Ask for a price (for example 19.99), add 7% tax, and print the total rounded to 2 decimals using round(total, 2). Goal: 19.99 → 21.39.
+price = float(input("Price: "))
+total = price * 1.07
+print(round(total, 2))
